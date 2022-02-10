@@ -1,0 +1,47 @@
+body{
+	padding:0px;
+	margin:0px;
+	text-align:center;
+}
+
+
+#c{
+	border:2px solid black;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:400px;
+	height:200px;
+
+}
+
+#c0{
+	border:2px solid black;
+	margin-top:10px;
+}
+input{
+	margin-bottom:10px;
+	width:30%;
+	text-align:left;
+	min-width: 100px;
+}
+button{
+	margin-bottom:10px;
+	width:80%;
+}
+
+.body{
+	display:flex;
+}
+
+.inputs{
+	flex:25%;
+	border:2px solid black;
+	padding-top:10px;
+	
+}
+
+.canvas{
+	flex:75%;
+	margin-left:5%;
+	border:2px solid black;
+}

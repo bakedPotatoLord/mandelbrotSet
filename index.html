@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mandelbrot Set</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+		<link href="https://static.thenounproject.com/png/103125-200.png" rel="icon" type="image/png" />
+		
+		<script src='functions.js' ></script>
+  </head>
+  <body>
+		<h1>Mandelbrot set</h1>
+		<div class= 'body'>
+			<div class = 'inputs'>
+				<label for='w'>Width (in pixels)</label>
+				<input type = 'number' name = 'w' value='400' id='w'/><br>
+				<label for='h'>Height (in pixels)</label>
+				<input type = 'number' name = 'h' value='400' id='h'/><br>
+				<label for='quality'>Quality (15 is average)</label>
+				<input type = 'number' name = 'quality' value='15' id='quality'/><br>
+				<button onclick='draw()'>Click to render (May Take up to a Minute)</button><br>
+			</div>
+			<div class='canvas'>
+				<canvas id='c'></canvas>
+				
+			</div>
+
+		</div>
+		<canvas id='c0' width ='400' height='400'></canvas></br>
+    <script src="script.js" ></script>
+  </body>
+</html>
